@@ -1,0 +1,53 @@
+html{
+	height: 100%;
+}
+
+body{
+	background: url('https://images.unsplash.com/photo-1508643315917-6688bbbb4cb5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e8ded8ce7550446784befccf63ad704c&auto=format&fit=crop&w=2100&q=80')
+	no-repeat center center fixed;
+	font-family: Catamaran;
+}
+.center{
+	text-align: center;
+	color: lightgrey;
+	padding-top: 15%;
+}
+
+h1, p{
+	color: white;
+
+}
+
+#login{
+	min-width: 250px;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 14px 14px 0;
+	overflow: hidden;
+}
+#login .social-buttons{
+	margin: 12px 0;
+	text-align: center;
+}
+
+#btn-fb{
+	color: $fff;
+	background-color: #3b599d;
+}
+#btn-tw{
+	color: $fff;
+	background-color: #55acee;
+}
+#btn-fb:hover{
+	color: $fff;
+	background-color: #496bec;
+}
+#btn-tw:hover{
+	color: $fff;
+	background-color: #55acee;
+}
+a{
+	color: white;
+}
+a:hover{
+	color: white;
+}
